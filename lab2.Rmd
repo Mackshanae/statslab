@@ -35,5 +35,6 @@ gapminder_data <- read.table("open_data/gapminder.csv",
 mean(gapminder_data$lifeExp)
 ```
 
+sum(1:3)
 
 
