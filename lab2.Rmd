@@ -1,0 +1,39 @@
+---
+title: "lab2"
+author: "MACk"
+date: "10/18/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1.Use R to demonstrate that the mean minimizes the sum of the squared deviations from the mean. Accomplish the following steps:
+  Produce a sample of at least 10 or more different numbers
+Produce a simulation following the example from the concepts section
+Use your simulation to test a range of numbers smaller and larger than the mean to show that the mean minimizes the sum of the squared deviations from the mean.
+Plot your results.
+
+
+
+```{r}
+
+1+1
+```
+
+
+```{r}
+gapminder_data <- read.table("open_data/gapminder.csv", 
+                             sep = ",",
+                             header = TRUE )
+```
+
+
+
+```{r}
+mean(gapminder_data$lifeExp)
+```
+
+
+
